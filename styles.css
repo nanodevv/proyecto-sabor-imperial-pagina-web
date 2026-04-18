@@ -1054,6 +1054,7 @@ header {
     margin-bottom: 20px;
     background: linear-gradient(90deg, #ffffff, #aaaaaa);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .footer-brand p {
@@ -1555,6 +1556,7 @@ body.reserva-body {
     outline: none;
     transition: border-color 0.3s ease, background 0.3s ease;
     -webkit-appearance: none;
+    appearance: none;
 }
 .form-group input::placeholder { color: rgba(255,255,255,0.3); }
 .form-group input:focus,
