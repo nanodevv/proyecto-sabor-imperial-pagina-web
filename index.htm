@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor Imperial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header id="main-header">
+    <nav class="navbar">
+        <div class="logo">
+            <span>Sabor Imperial</span>
+        </div>
+
+        <div class="nav-right">
+            <ul class="nav-center">
+                <li><a href="#fondo">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#platillos">Platillos</a></li>
+                <li><a href="reserva.htm">Reservas</a></li>
+                <li>
+                    <a href="#" class="btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Delivery
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+<!-- ================= MAIN ================= -->
+<main>
+
+    <!-- ===== PORTADA ===== -->
+    <section id="fondo">
+
+        <!-- Overlay -->
+        <div class="fondo-overlay"></div>
+
+        <!-- Hero Content — Logo es el protagonista -->
+        <div class="fondo-content">
+
+            <!-- LOGO: elemento principal -->
+            <img src="imagenes/logo.png" alt="Sabor Imperial" class="fondo-logo-img">
+
+            <!-- Tagline secundaria -->
+            <p class="fondo-tagline">
+                <span class="fondo-tagline-line"></span>
+                La auténtica cocina peruana · Chimbote
+                <span class="fondo-tagline-line"></span>
+            </p>
+
+            <!-- CTAs -->
+            <div class="fondo-btns">
+                <a href="#platillos" class="fondo-btn-primary">
+                    <i class="fa-solid fa-bowl-food"></i>
+                    Ver menú
+                </a>
+                <a href="reserva.htm" class="fondo-btn-secondary">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    Reservar mesa
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="fondo-scroll-indicator">
+            <span>Descubre más</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+    </section>
+
+    <!-- ===== NOSOTROS ===== -->
+    <section id="nosotros">
+
+        <!-- DECORATIVE BACKGROUND BLOBS -->
+        <div class="nosotros-blob nosotros-blob--1"></div>
+        <div class="nosotros-blob nosotros-blob--2"></div>
+
+        <div class="nosotros-wrapper">
+
+            <!-- LEFT COLUMN -->
+            <div class="nosotros-left">
+
+                <!-- Eyebrow label -->
+                <span class="nosotros-eyebrow">
+                    <i class="fa-solid fa-pepper-hot"></i>
+                    Nuestra historia
+                </span>
+
+                <h2 class="nosotros-title">
+                    Tradición &amp; Sabor<br>
+                    <em>desde Chimbote</em>
+                </h2>
+
+                <p class="nosotros-desc">
+                    En <strong>Sabor Imperial</strong> fusionamos la riqueza de la gastronomía
+                    peruana con ingredientes frescos seleccionados cada día. Cada plato lleva
+                    en su receta décadas de tradición y el amor de nuestra cocina artesanal.
+                </p>
+
+                <p class="nosotros-desc">
+                    Nuestro compromiso es brindarte una experiencia culinaria auténtica,
+                    donde el sabor, la calidad y la calidez del servicio se convierten
+                    en tu mejor recuerdo.
+                </p>
+
+                <!-- Quote decorativa -->
+                <blockquote class="nosotros-quote">
+                    <i class="fa-solid fa-quote-left"></i>
+                    "La buena comida es la base de la felicidad genuina."
+                </blockquote>
+
+                <!-- CTA Button -->
+                <a href="reserva.htm" class="nosotros-cta">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    Reservar una mesa
+                    <i class="fa-solid fa-arrow-right nosotros-cta-arrow"></i>
+                </a>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="nosotros-right">
+
+                <!-- Imagen principal con badge -->
+                <div class="nosotros-img-wrapper">
+                    <img src="imagenes/restaurante.png" alt="Restaurante Sabor Imperial" class="nosotros-img-main">
+                    <div class="nosotros-badge">
+                        <span class="nosotros-badge-num">+15</span>
+                        <span class="nosotros-badge-txt">años de<br>sabor</span>
+                    </div>
+                </div>
+
+                <!-- Stats grid -->
+                <div class="nosotros-stats">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-users stat-icon"></i>
+                        <span class="stat-num">3,200</span><span class="stat-suffix">+</span>
+                        <p class="stat-label">Clientes felices</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-bowl-food stat-icon"></i>
+                        <span class="stat-num">48</span>
+                        <p class="stat-label">Platos en carta</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-star stat-icon"></i>
+                        <span class="stat-num">5</span><span class="stat-suffix">★</span>
+                        <p class="stat-label">Valoración media</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FEATURE CARDS strip -->
+        <div class="nosotros-features">
+            <div class="feature-card reveal-card">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h3>Ingredientes frescos</h3>
+                <p>Seleccionamos lo mejor del mercado cada mañana para garantizar frescura y sabor.</p>
+            </div>
+            <div class="feature-card reveal-card">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                </div>
+                <h3>Cocina artesanal</h3>
+                <p>Nuestros chefs preparan cada receta con técnicas tradicionales y pasión genuina.</p>
+            </div>
+            <div class="feature-card reveal-card">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <h3>Entrega rápida</h3>
+                <p>Llevamos tu pedido en menos de 40 min, caliente y con el mismo amor de siempre.</p>
+            </div>
+            <div class="feature-card reveal-card">
+                <div class="feature-icon-wrap">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3>Higiene garantizada</h3>
+                <p>Cumplimos todos los estándares sanitarios para que disfrutes sin preocupaciones.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ===== PLATILLOS ===== -->
+    <section id="platillos">
+
+        <!-- DECORATIVE BACKGROUND BLOBS -->
+        <div class="platillos-blob platillos-blob--1"></div>
+        <div class="platillos-blob platillos-blob--2"></div>
+
+        <!-- HEADER -->
+        <div class="platillos-header">
+            <span class="platillos-eyebrow">
+                <i class="fa-solid fa-bowl-food"></i>
+                Nuestro menú
+            </span>
+            <h2 class="platillos-title">Platos <em>Principales</em></h2>
+            <p class="platillos-subtitle">Sabores auténticos de la gastronomía peruana, preparados con ingredientes frescos seleccionados cada día.</p>
+        </div>
+
+        <!-- CARDS GRID -->
+        <div class="card-container">
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/polloalabrasa.png" alt="Pollo a la brasa">
+                    <span class="card-price">S/ 25</span>
+                </div>
+                <div class="contenido">
+                    <h3>Pollo a la brasa</h3>
+                    <p>Jugoso pollo con papas fritas y ensalada</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/lomosaltado.png" alt="Lomo saltado">
+                    <span class="card-price">S/ 30</span>
+                </div>
+                <div class="contenido">
+                    <h3>Lomo saltado</h3>
+                    <p>Carne con cebolla, tomate y papas fritas</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/ceviche.png" alt="Ceviche clásico">
+                    <span class="card-price">S/ 28</span>
+                </div>
+                <div class="contenido">
+                    <h3>Ceviche clásico</h3>
+                    <p>Pescado fresco marinado en limón</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/arrozconpollo.png" alt="Arroz con pollo">
+                    <span class="card-price">S/ 22</span>
+                </div>
+                <div class="contenido">
+                    <h3>Arroz con pollo</h3>
+                    <p>Arroz verde con pollo y ensalada fresca</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/ajidegallina.png" alt="Ají de gallina">
+                    <span class="card-price">S/ 24</span>
+                </div>
+                <div class="contenido">
+                    <h3>Ají de gallina</h3>
+                    <p>Crema de gallina con ají amarillo</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/secodecarne.png" alt="Seco de carne">
+                    <span class="card-price">S/ 26</span>
+                </div>
+                <div class="contenido">
+                    <h3>Seco de carne</h3>
+                    <p>Carne guisada con culantro y arroz</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/tallarinesverdes.png" alt="Tallarines verdes">
+                    <span class="card-price">S/ 20</span>
+                </div>
+                <div class="contenido">
+                    <h3>Tallarines verdes</h3>
+                    <p>Pasta con salsa de albahaca y queso</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/causalimena.png" alt="Causa limeña">
+                    <span class="card-price">S/ 18</span>
+                </div>
+                <div class="contenido">
+                    <h3>Causa limeña</h3>
+                    <p>Papa amarilla rellena de pollo o atún</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/anticuchos.png" alt="Anticuchos">
+                    <span class="card-price">S/ 15</span>
+                </div>
+                <div class="contenido">
+                    <h3>Anticuchos</h3>
+                    <p>Brochetas con papas doradas</p>
+                </div>
+            </div>
+
+            <div class="card reveal-platillo">
+                <div class="card-img-wrap">
+                    <img src="imagenes/papahuancaina.png" alt="Papa Huancaína">
+                    <span class="card-price">S/ 14</span>
+                </div>
+                <div class="contenido">
+                    <h3>Papa Huancaína</h3>
+                    <p>Papas con crema de ají amarillo y queso</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- ===== TESTIMONIOS ===== -->
+    <section id="testimonios">
+
+        <!-- DECORATIVE BACKGROUND BLOBS -->
+        <div class="testimonios-blob testimonios-blob--1"></div>
+        <div class="testimonios-blob testimonios-blob--2"></div>
+
+        <!-- HEADER -->
+        <div class="testimonios-header">
+            <span class="testimonios-eyebrow">
+                <i class="fa-solid fa-comment-dots"></i>
+                Testimonios
+            </span>
+            <h2 class="testimonios-title">Lo que dicen <em>nuestros clientes</em></h2>
+            <p class="testimonios-subtitle">Descubre por qué a la gente le encanta la auténtica experiencia de Sabor Imperial en Chimbote.</p>
+        </div>
+
+        <div class="testimonios-container">
+
+            <div class="testimonio reveal-testimonio">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="estrellas">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testimonio-text">"El mejor pollo a la brasa de Chimbote, sin duda. El ambiente es acogedor y el servicio muy amable."</p>
+                <div class="testimonio-author">
+                    <i class="fa-solid fa-circle-user author-icon"></i>
+                    <div class="author-info">
+                        <h3>Carlos Mendoza</h3>
+                        <span>Cliente Frecuente</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonio reveal-testimonio">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="estrellas">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testimonio-text">"El ceviche está increíble, fresco y bien preparado. Volveré con toda mi familia sin dudarlo."</p>
+                <div class="testimonio-author">
+                    <i class="fa-solid fa-circle-user author-icon"></i>
+                    <div class="author-info">
+                        <h3>María Quispe</h3>
+                        <span>Nuevo Cliente</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonio reveal-testimonio">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="estrellas">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="testimonio-text">"El lomo saltado es espectacular, porciones generosas y precio justo. Mi restaurante favorito."</p>
+                <div class="testimonio-author">
+                    <i class="fa-solid fa-circle-user author-icon"></i>
+                    <div class="author-info">
+                        <h3>Luis Ramos</h3>
+                        <span>Cliente Local</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="main-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-section footer-brand">
+            <h3 class="footer-logo">Sabor Imperial</h3>
+            <p>Los mejores sabores de Chimbote con tradición peruana. Descubre una experiencia gastronómica única.</p>
+        </div>
+
+        <div class="footer-section footer-contact">
+            <h4>Contacto</h4>
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Chimbote, Áncash - Perú</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <p>+51 918 468 527</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <p>hola@saborimperial.pe</p>
+            </div>
+        </div>
+
+        <div class="footer-section footer-schedule">
+            <h4>Horario</h4>
+            <div class="schedule-item">
+                <span>Lunes - Viernes:</span>
+                <span>12:00 pm - 10:00 pm</span>
+            </div>
+            <div class="schedule-item">
+                <span>Sábado - Domingo:</span>
+                <span>11:00 am - 11:00 pm</span>
+            </div>
+        </div>
+
+        <div class="footer-section footer-social">
+            <h4>Síguenos</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Sabor Imperial - Chimbote, Perú | Todos los derechos reservados</p>
+    </div>
+
+</footer>
+
+</body>
+</html>

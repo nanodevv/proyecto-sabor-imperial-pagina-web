@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Mesa - Sabor Imperial</title>
+    <meta name="description" content="Reserva tu mesa en Sabor Imperial, el mejor restaurante peruano de Chimbote.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="reserva-body">
+
+    <!-- Overlay y blobs -->
+    <div class="reserva-overlay"></div>
+    <div class="reserva-blob reserva-blob--1"></div>
+    <div class="reserva-blob reserva-blob--2"></div>
+
+    <!-- NAVBAR -->
+    <header class="reserva-header" id="reserva-header">
+        <a href="index.htm" class="reserva-nav-logo">Sabor Imperial</a>
+        <a href="index.htm" class="reserva-nav-back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Volver al inicio
+        </a>
+    </header>
+
+    <!-- MAIN -->
+    <div class="reserva-wrapper">
+
+        <!-- LEFT — branding e info -->
+        <div class="reserva-left">
+
+            <span class="reserva-eyebrow">
+                <i class="fa-solid fa-calendar-check"></i>
+                Reserva tu mesa
+            </span>
+
+            <h1 class="reserva-titulo">
+                Una experiencia<br><em>Inolvidable</em>
+            </h1>
+
+            <p class="reserva-desc">
+                Reserva tu mesa y vive la auténtica gastronomía peruana en el mejor ambiente de Chimbote.
+            </p>
+
+            <div class="reserva-info-pills">
+                <div class="reserva-pill">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Lunes a Domingo · 12:00 pm – 10:00 pm</span>
+                </div>
+                <div class="reserva-pill">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Chimbote, Áncash – Perú</span>
+                </div>
+                <div class="reserva-pill">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+51 918 468 527</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT — formulario -->
+        <div class="reserva-right">
+            <div class="reserva-form-box">
+
+                <h2 class="reserva-form-title">Reservar Mesa</h2>
+                <p class="reserva-form-sub">Completa el formulario y nos pondremos en contacto contigo.</p>
+
+                <form>
+                    <div class="form-group">
+                        <label>Nombre completo</label>
+                        <input type="text" placeholder="Ej. Juan Pérez García" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Correo electrónico</label>
+                        <input type="email" placeholder="tu@correo.com">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Fecha</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Hora</label>
+                            <input type="time" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Número de personas</label>
+                        <input type="number" placeholder="¿Cuántas personas?" min="1" max="20" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Ocasión especial</label>
+                        <select>
+                            <option value="">Sin ocasión especial</option>
+                            <option value="cumpleanos">🎂 Cumpleaños</option>
+                            <option value="aniversario">💍 Aniversario</option>
+                            <option value="negocios">💼 Reunión de negocios</option>
+                            <option value="familiar">👨‍👩‍👧‍👦 Reunión familiar</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="reserva-btn">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        Confirmar Reserva
+                    </button>
+                </form>
+
+                <p class="reserva-phone-note">
+                    ¿Prefieres llamarnos? &nbsp;
+                    <a href="tel:+51918468527">+51 918 468 527</a>
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
